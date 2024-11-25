@@ -1,0 +1,24 @@
+<vmap:VMAP xmlns:vmap="http://www.iab.net/vmap-1.0">
+  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="pre-roll">
+    <vmap:AdSource id="ad1" allowMultipleAds="false" followRedirects="true">
+      <vmap:AdTagURI templateType="vast3">
+        <![CDATA[ https://localhost:3000/videos/cm1-vast.xml ]]>
+      </vmap:AdTagURI>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+  <vmap:AdBreak timeOffset="00:00:05" breakType="linear" breakId="mid-roll-1">
+    <vmap:AdSource id="ad2" allowMultipleAds="false" followRedirects="true">
+      <vmap:AdTagURI templateType="vast3">
+        <![CDATA[ https://localhost:3000/videos/cm2-vast.xml ]]>
+      </vmap:AdTagURI>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+  <vmap:AdBreak timeOffset="00:00:10" breakType="linear" breakId="post-roll">
+    <vmap:AdSource id="ad3" allowMultipleAds="false" followRedirects="true">
+      <vmap:AdTagURI templateType="vast3">
+        <![CDATA[ https://localhost:3000/videos/cm0-vast.xml ]]>
+      </vmap:AdTagURI>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+</vmap:VMAP>
+
